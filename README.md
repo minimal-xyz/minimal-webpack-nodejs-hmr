@@ -6,8 +6,11 @@ Webpack Backend HMR Demo
 
 ### Guide
 
-http://jlongster.com/Backend-Apps-with-Webpack--Part-III
+http://jlongster.com/Backend-Apps-with-Webpack--Part-II
 https://github.com/webpack/docs/issues/45#issuecomment-149793458
+
+Also my notes(in Chinese) explaining how I learnt it:
+http://segmentfault.com/a/1190000003888845
 
 ### Usage
 
