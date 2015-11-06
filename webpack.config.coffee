@@ -1,5 +1,13 @@
 
+fs = require 'fs'
 webpack = require 'webpack'
+
+nodeModules = {}
+fs.readdirSync('node_modules')
+.filter (x) ->
+  ['.bin'].indexOf(x) is -1
+.forEach (mod) ->
+  nodeModules[mod] = "commonjs #{mod}"
 
 module.exports =
   entry: [
@@ -19,3 +27,4 @@ module.exports =
   ]
   resolve:
     extensions: ['.js', '', '.coffee']
+  externals: nodeModules

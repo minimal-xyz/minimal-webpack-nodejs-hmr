@@ -6,7 +6,7 @@ Webpack Backend HMR Demo
 
 ### Guide
 
-http://jlongster.com/Backend-Apps-with-Webpack--Part-II
+http://jlongster.com/Backend-Apps-with-Webpack--Part-I
 https://github.com/webpack/docs/issues/45#issuecomment-149793458
 
 Also my notes(in Chinese) explaining how I learnt it:
