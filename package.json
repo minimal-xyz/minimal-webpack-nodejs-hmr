@@ -12,20 +12,18 @@
   "author": "jiyinyiyong",
   "license": "MIT",
   "devDependencies": {
-    "coffee-loader": "^0.7.2",
-    "coffee-script": "^1.10.0",
-    "webpack": "^1.12.2"
+    "coffee-loader": "^0.9.0",
+    "coffeescript": "^2.3.2",
+    "webpack": "^4.29.0",
+    "webpack-cli": "^3.2.1"
   },
-  "dependencies": {
-    "coffee-loader": "^0.7.2",
-    "webpack": "^1.12.2"
-  },
+  "dependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jiyinyiyong/webpack-backend-HMR-demo.git"
+    "url": "git+https://github.com/minimal-xyz/minimal-webpack-shadow-cljs.git"
   },
   "bugs": {
-    "url": "https://github.com/jiyinyiyong/webpack-backend-HMR-demo/issues"
+    "url": "https://github.com/minimal-xyz/minimal-webpack-shadow-cljs/issues"
   },
-  "homepage": "https://github.com/jiyinyiyong/webpack-backend-HMR-demo#readme"
+  "homepage": "https://github.com/minimal-xyz/minimal-webpack-shadow-cljs#readme"
 }

@@ -1,5 +1,6 @@
 
 fs = require 'fs'
+path = require 'path'
 webpack = require 'webpack'
 
 nodeModules = {}
@@ -14,17 +15,18 @@ module.exports =
     'webpack/hot/poll?1000'
     './src/main'
   ]
+  mode: 'development'
   target: 'node'
   output:
-    path: 'build/'
+    path: path.join __dirname, 'build/'
     filename: 'bundle.js'
   module:
-    loaders: [
-      {test: /\.coffee/, loader: 'coffee'}
+    rules: [
+      {test: /\.coffee/, loader: 'coffee-loader'}
     ]
   plugins: [
     new webpack.HotModuleReplacementPlugin()
   ]
   resolve:
-    extensions: ['.js', '', '.coffee']
+    extensions: ['.js', '.coffee']
   externals: nodeModules
